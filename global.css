@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: 'roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none ;
+    color: black;
+}
+
+header {
+    background-color: rgb(206, 206, 206);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 8vh;
+}
+
+nav a {
+    font-weight: 600;
+    padding-left: 100px;
+}
+
+.hero {
+    position: relative;
+    background-color: blanchedalmond;
+    height: 65vh;
+}
+
+.sobremi {
+    position: relative;
+    background-color: azure;
+    height: 50vh;
+}
+
+.habilidades {
+    position: relative;
+    background-color: antiquewhite;
+    height: 50vh;
+}
